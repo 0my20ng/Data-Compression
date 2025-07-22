@@ -1,0 +1,42 @@
+[
+  {
+    "algo": "RLE",
+    "enc_ms": 210.6,
+    "dec_ms": 276.9,
+    "size": 573040,
+    "ratio": 465.5,
+    "restored_ok": true,
+    "enc_file": "sample_text_120KB.txt.rle",
+    "restored_file": "sample_text_120KB.txt.rle.restored"
+  },
+  {
+    "algo": "HUFFMAN",
+    "enc_ms": 175.4,
+    "dec_ms": 213.3,
+    "size": 64353,
+    "ratio": 52.3,
+    "restored_ok": true,
+    "enc_file": "sample_text_120KB.txt.huff",
+    "restored_file": "sample_text_120KB.txt.huff.restored"
+  },
+  {
+    "algo": "LZ77",
+    "enc_ms": 66606.2,
+    "dec_ms": 229.6,
+    "size": 144951,
+    "ratio": 117.8,
+    "restored_ok": true,
+    "enc_file": "sample_text_120KB.txt.lz77",
+    "restored_file": "sample_text_120KB.txt.lz77.restored"
+  },
+  {
+    "algo": "LZW",
+    "enc_ms": 271.2,
+    "dec_ms": 269.1,
+    "size": 82784,
+    "ratio": 67.3,
+    "restored_ok": true,
+    "enc_file": "sample_text_120KB.txt.lzw",
+    "restored_file": "sample_text_120KB.txt.lzw.restored"
+  }
+]
